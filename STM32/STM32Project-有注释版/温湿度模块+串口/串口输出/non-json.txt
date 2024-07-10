@@ -1,0 +1,37 @@
+  ??WIFI CONNECTED
+WIFI GOT IP
+
+OK
+AT+CIPSTART="TCP","192.168.98.143",8081
+CONNECT
+
+OK
+AT+CIPMODE=1
+
+OK
+AT+CIPSEND
+
+OK
+
+>
+
+
+D:\software\python37\python.exe D:\project\item\python\Flask\main.py 
+TCP server started on 192.168.98.143:8081
+Connection established with ('192.168.98.195', 40471)
+Client address: ('192.168.98.195', 40471)
+Received non-JSON data: {"temperature":25,"humidity":66}
+AT+CIPMODE=1
+
+Connection established with ('192.168.98.195', 17045)
+Client address: ('192.168.98.195', 17045)
+Received non-JSON data: AT+CIPSEND
+
+Connection established with ('192.168.98.195', 1096)
+Client address: ('192.168.98.195', 1096)
+Received non-JSON data: {"temperature":25,"humidity":66}
+AT+CIPMODE=1
+
+Connection established with ('192.168.98.195', 12362)
+Client address: ('192.168.98.195', 12362)
+Received non-JSON data: AT+CIPSEND

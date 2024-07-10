@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "limits": "c",
+        "memory": "c",
+        "string": "c",
+        "serial.h": "c"
+    }
+}
